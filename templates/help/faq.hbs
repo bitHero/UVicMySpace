@@ -1,0 +1,36 @@
+{{#>default section=sections.help page=sections.help.subsections.faq}}
+<div style="min-height: 60vh;">
+    {{! This is the starter for a section page
+        -------------------------------------------------------
+        - The tag at the top brings in the default portions
+        - Data comes in from JSON files, please put all data/strings in the JSON files
+        - Keep the data organized, if you're adding financial data put it under "finances"
+    }}
+    {{! Access the page context with `page` (see globals.json)}}
+    <h2>{{page.title}}</h2>
+    {{!This is for the collapsible lists}}
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        {{#each sections.help.questions}}
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id={{@index}}: {{this}}>
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls={{@index}}: {{this}}>
+                            {{question}}
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby={{@index}}: {{this}}>
+                    <div class="panel-body">
+                        {{answer}}
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+    {{! Access the page context with `user` (see amy.json)}}
+    <p>{{user.content}}</p>
+
+
+
+</div>
+{{/default}}

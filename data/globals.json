@@ -7,23 +7,75 @@
     "courses": {
       "title": "Courses",
       "path": "courses/",
-      "subsections": []
+      "start_page": "timetable",
+      "subsections": {
+        "timetable": {
+          "title": "Timetable",
+          "path": "timetable.html"
+        },
+        "program_change": {
+          "title": "Program",
+          "path": "program.html"
+        },
+        "graduation": {
+          "title": "Graduation",
+          "path": "graduation.html"
+        }
+      }
     },
     "records": {
       "title": "Records",
       "path": "records/",
-      "subsections": []
+      "start_page": "grades",
+      "subsections": {
+        "grades": {
+          "title": "Grades",
+          "path": "grades.html"
+        },
+        "transcripts": {
+          "title": "Transcripts",
+          "path": "transcripts.html"
+        },
+        "verification": {
+          "title": "Verification of Enrollment",
+          "path": "verification.html"
+        },
+        "report": {
+          "title": "CAPP Report",
+          "path": "report.html"
+        }
+      }
     },
     "finances": {
       "title": "Finances",
       "path": "finances/",
-      "subsections": []
+      "start_page": "account",
+      "subsections": {
+        "account": {
+          "title": "Account",
+          "path": "account.html"
+        },
+        "taxes": {
+          "title": "Tax Slips",
+          "path": "taxes.html"
+        },
+        "awards": {
+          "title": "Awards",
+          "path": "awards.html"
+        }
+      }
     },
     "help": {
       "title": "Help",
       "path": "help/",
-      "subsections": [],
-      "faq": [
+      "start_page": "faq",
+      "subsections": {
+        "faq": {
+          "title": "FAQ",
+          "path": "faq.html"
+        }
+      },
+      "questions": [
         {
           "question": "What is the UVic OneCard?",
           "answer": "The UVic ONECard, introduced in 2014, is the official identification card for the University of Victoria community. As long as you're affiliated with UVic, your ONECard will be your most important piece of ID. Carry it with you at all times when on campus."
