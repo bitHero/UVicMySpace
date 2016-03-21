@@ -10,5 +10,29 @@
     <h2>{{page.title}}</h2>
     {{! Access the page context with `user` (see amy.json)}}
     <p>{{user.content}}</p>
+
+    {{!This is for the collapsible lists}}
+
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        {{#each page.faq}}
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id={{headingNum}}>
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls={{collapseNum}}>
+                            {{question}}
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby={{headingNum}}>
+                    <div class="panel-body">
+                        {{answer}}
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+
+
+
 </div>
 {{/default}}
