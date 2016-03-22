@@ -19002,6 +19002,113 @@ th {
   border-bottom-color: transparent;
   cursor: default;
 }
+.mypage .tabs-right > .nav-tabs > li > a, .mypage .tabs-left > .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+}
+.mypage .tabs-below > .nav-tabs {
+  border-bottom: 0;
+  border-top: 1px solid #ddd;
+}
+.mypage .tabs-below > .nav-tabs > li {
+  margin-top: -1px;
+  margin-bottom: 0;
+}
+.mypage .tabs-below > .nav-tabs > li > a {
+  border-radius: 0 0 4px 4px;
+}
+.mypage .tabs-below > .nav-tabs > li > a:hover {
+  border-top-color: #ddd;
+  border-bottom-color: transparent;
+}
+.mypage .tabs-below > .nav-tabs > li > a:focus {
+  border-top-color: #ddd;
+  border-bottom-color: transparent;
+}
+.mypage .tabs-below > .nav-tabs > .active > a {
+  border-color: transparent #ddd #ddd #ddd;
+}
+.mypage .tabs-below > .nav-tabs > .active > a:hover {
+  border-color: transparent #ddd #ddd #ddd;
+}
+.mypage .tabs-below > .nav-tabs > .active > a:focus {
+  border-color: transparent #ddd #ddd #ddd;
+}
+.mypage .tabs-right > .nav-tabs {
+  border-bottom: 0;
+  float: right;
+  margin-left: 19px;
+  border-left: 1px solid #ddd;
+}
+.mypage .tabs-right > .nav-tabs > li {
+  float: none;
+}
+.mypage .tabs-right > .nav-tabs > li > a {
+  margin-left: -1px;
+  border-radius: 0 4px 4px 0;
+}
+.mypage .tabs-right > .nav-tabs > li > a:hover {
+  border-color: #eeeeee #eeeeee #eeeeee #ddd;
+}
+.mypage .tabs-right > .nav-tabs > li > a:focus {
+  border-color: #eeeeee #eeeeee #eeeeee #ddd;
+}
+.mypage .tabs-right > .nav-tabs .active > a {
+  border-color: #ddd #ddd #ddd transparent;
+  *border-left-color: #ffffff;
+}
+.mypage .tabs-right > .nav-tabs .active > a:hover {
+  border-color: #ddd #ddd #ddd transparent;
+  *border-left-color: #ffffff;
+}
+.mypage .tabs-right > .nav-tabs .active > a:focus {
+  border-color: #ddd #ddd #ddd transparent;
+  *border-left-color: #ffffff;
+}
+.mypage .tabs-left > .nav-tabs {
+  border-bottom: 0;
+  float: left;
+  margin-right: 19px;
+  border-right: 1px solid #ddd;
+}
+.mypage .tabs-left > .nav-tabs > li {
+  float: none;
+}
+.mypage .tabs-left > .nav-tabs > li > a {
+  margin-right: -1px;
+  border-radius: 4px 0 0 4px;
+}
+.mypage .tabs-left > .nav-tabs > li > a:hover {
+  border-color: #eeeeee #ddd #eeeeee #eeeeee;
+}
+.mypage .tabs-left > .nav-tabs > li > a:focus {
+  border-color: #eeeeee #ddd #eeeeee #eeeeee;
+}
+.mypage .tabs-left > .nav-tabs .active > a {
+  border-color: #ddd transparent #ddd #ddd;
+  *border-right-color: #ffffff;
+}
+.mypage .tabs-left > .nav-tabs .active > a:hover {
+  border-color: #ddd transparent #ddd #ddd;
+  *border-right-color: #ffffff;
+}
+.mypage .tabs-left > .nav-tabs .active > a:focus {
+  border-color: #ddd transparent #ddd #ddd;
+  *border-right-color: #ffffff;
+}
+.mypage .tab-content > .tab-pane {
+  display: none;
+}
+.mypage .tab-content > .active {
+  display: block;
+}
+.mypage .pill-content > .pill-pane {
+  display: none;
+}
+.mypage .pill-content > .active {
+  display: block;
+}
 .mypage .nav-pills > li {
   float: left;
 }
@@ -20664,6 +20771,13 @@ th {
 .mypage .panel.with-nav-tabs .nav-tabs > li a {
   color: #000;
 }
+.mypage .tabbable .panel {
+  margin-bottom: 0;
+}
+.mypage .tabbable .panel + .nav-tabs {
+  border: none;
+  margin: 0 8px;
+}
 .mypage .embed-responsive {
   position: relative;
   display: block;
@@ -21594,6 +21708,12 @@ th {
   .mypage .hidden-print {
     display: none !important;
   }
+}
+.mypage .dashboard .tabbable .tab-content {
+  min-height: 50vh;
+}
+.mypage .timetable table th {
+  text-align: center;
 }
 
 /*# sourceMappingURL=MyPage.css.map */
