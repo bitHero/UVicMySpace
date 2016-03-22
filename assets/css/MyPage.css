@@ -16452,6 +16452,9 @@ th {
 .mypage .text-capitalize {
   text-transform: capitalize;
 }
+.mypage .text-bold {
+  font-weight: bold;
+}
 .mypage .text-muted {
   color: #777777;
 }
