@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>Program</title>
+    <title>MyUVic | Program</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width">    <link rel="stylesheet" href="/UVicMySpace/assets/css/MyPage.css">
@@ -1716,51 +1716,68 @@
 <div class="mypage">
     <div class="container">
         <div id="content">
-            <div class="panel with-nav-tabs panel-default">
-                <div class="panel-heading">
-                    <ul class="nav nav-tabs">
-                        <li>
-                            <a href="/UVicMySpace/amy/">Home</a>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse"
+                                aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <span class="navbar-brand"><img alt="MyUVic" class="img-responsive" src="/UVicMySpace//assets/img/brand.svg"/></span>
+                    </div>
+            
+                    <div class="navbar-collapse collapse" id="nav-collapse" aria-expanded="false" style="height: 1px;">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="/UVicMySpace/amy/">Home</a>
+                            </li>
+                            <li class="active">
+                                <a >Courses</a>
+                            </li>
+                            <li>
+                                <a href="/UVicMySpace/amy/records/grades.html">Records</a>
+                            </li>
+                            <li>
+                                <a href="/UVicMySpace/amy/finances/account.html">Finances</a>
+                            </li>
+                            <li>
+                                <a href="/UVicMySpace/amy/help/faq.html">Help</a>
+                            </li>
+                        </ul>
+                        <form class="navbar-form navbar-right" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search MyUVic">
+                            </div>
+                            <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </nav>            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="nav nav-pills">
+                        <li >
+                            <a href="/UVicMySpace/amy/courses/timetable.html">
+                                Timetable
+                            </a>
                         </li>
                         <li class="active">
-                            <a >Courses</a>
+                            <a >
+                                Program
+                            </a>
                         </li>
-                        <li>
-                            <a href="/UVicMySpace/amy/records/grades.html">Records</a>
-                        </li>
-                        <li>
-                            <a href="/UVicMySpace/amy/finances/account.html">Finances</a>
-                        </li>
-                        <li>
-                            <a href="/UVicMySpace/amy/help/faq.html">Help</a>
+                        <li >
+                            <a href="/UVicMySpace/amy/courses/graduation.html">
+                                Graduation
+                            </a>
                         </li>
                     </ul>                </div>
-                <div class="panel-body">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <ul class="nav nav-pills">
-                                <li >
-                                    <a href="/UVicMySpace/amy/courses/timetable.html">
-                                        Timetable
-                                    </a>
-                                </li>
-                                <li class="active">
-                                    <a >
-                                        Program
-                                    </a>
-                                </li>
-                                <li >
-                                    <a href="/UVicMySpace/amy/courses/graduation.html">
-                                        Graduation
-                                    </a>
-                                </li>
-                            </ul>                        </div>
-                    </div>
-                        <div style="min-height: 60vh;">
-                            <h2>Program</h2>
-                            <p>Under construction... Awkward...</p>
-                        </div>
-                </div>
+            </div>
+            <div style="min-height: 60vh;">
+                <h2>Program</h2>
+                <p>Under construction... Awkward...</p>
             </div>
         </div>
     </div>

@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>Account</title>
+    <title>MyUVic | Account</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width">    <link rel="stylesheet" href="/UVicMySpace/assets/css/MyPage.css">
@@ -1716,179 +1716,196 @@
 <div class="mypage">
     <div class="container">
         <div id="content">
-            <div class="panel with-nav-tabs panel-default">
-                <div class="panel-heading">
-                    <ul class="nav nav-tabs">
-                        <li>
-                            <a href="/UVicMySpace/amy/">Home</a>
-                        </li>
-                        <li>
-                            <a href="/UVicMySpace/amy/courses/timetable.html">Courses</a>
-                        </li>
-                        <li>
-                            <a href="/UVicMySpace/amy/records/grades.html">Records</a>
-                        </li>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse"
+                                aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <span class="navbar-brand"><img alt="MyUVic" class="img-responsive" src="/UVicMySpace//assets/img/brand.svg"/></span>
+                    </div>
+            
+                    <div class="navbar-collapse collapse" id="nav-collapse" aria-expanded="false" style="height: 1px;">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="/UVicMySpace/amy/">Home</a>
+                            </li>
+                            <li>
+                                <a href="/UVicMySpace/amy/courses/timetable.html">Courses</a>
+                            </li>
+                            <li>
+                                <a href="/UVicMySpace/amy/records/grades.html">Records</a>
+                            </li>
+                            <li class="active">
+                                <a >Finances</a>
+                            </li>
+                            <li>
+                                <a href="/UVicMySpace/amy/help/faq.html">Help</a>
+                            </li>
+                        </ul>
+                        <form class="navbar-form navbar-right" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search MyUVic">
+                            </div>
+                            <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </nav>            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="nav nav-pills">
                         <li class="active">
-                            <a >Finances</a>
+                            <a >
+                                Account
+                            </a>
                         </li>
-                        <li>
-                            <a href="/UVicMySpace/amy/help/faq.html">Help</a>
+                        <li >
+                            <a href="/UVicMySpace/amy/finances/taxes.html">
+                                Tax Slips
+                            </a>
+                        </li>
+                        <li >
+                            <a href="/UVicMySpace/amy/finances/awards.html">
+                                Awards
+                            </a>
                         </li>
                     </ul>                </div>
-                <div class="panel-body">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <ul class="nav nav-pills">
-                                <li class="active">
-                                    <a >
-                                        Account
-                                    </a>
-                                </li>
-                                <li >
-                                    <a href="/UVicMySpace/amy/finances/taxes.html">
-                                        Tax Slips
-                                    </a>
-                                </li>
-                                <li >
-                                    <a href="/UVicMySpace/amy/finances/awards.html">
-                                        Awards
-                                    </a>
-                                </li>
-                            </ul>                        </div>
-                    </div>
-                        <div style="min-height: 60vh;">
-                        
-                            <div class="row">
-                                <div class="col-md-7">
-                                        <h3>Spring 2016
-                                            <div class=pull-right>
-                                                <div class="btn-group">
-                                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false">
-                                                        Print <i class="fa fa-print"></i> <span class="caret"></span>
-                                                    </button>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="#">All Semesters</a></li>
-                                                        <li role="separator" class="divider"></li>
-                                                        <li><a href="#">Summer 2013</a></li>
-                                                        <li><a href="#">Fall 2013</a></li>
-                                                        <li><a href="#">Spring 2014</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </h3>
-                                        <p>&nbsp;</p>
-                                        <div class="panel panel-default">
-                                            <table class="table table-hover" width="100%">
-                                                <thead>
-                                                <tr>
-                                                    <th width="80%">Description</th>
-                                                    <th width="20%">Amount</th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <th>Courses</th>
-                                                        <th>$2735.00</th>
-                                                    </tr>
-                                                    <tr>
-                                                            <td style="padding-left: 2em;">CSC 226</td>
-                                                            <td>$547.00</td>
-                                                        </tr>
-                                                            <td style="padding-left: 2em;">MATH 122</td>
-                                                            <td>$547.00</td>
-                                                        </tr>
-                                                            <td style="padding-left: 2em;">SENG 310</td>
-                                                            <td>$547.00</td>
-                                                        </tr>
-                                                            <td style="padding-left: 2em;">SENG 265</td>
-                                                            <td>$547.00</td>
-                                                        </tr>
-                                                            <td style="padding-left: 2em;">ELEC 310</td>
-                                                            <td>$547.00</td>
-                                                        </tr>                            <tr>
-                                                        <th>Fees</th>
-                                                        <th>$233.95</th>
-                                                    </tr>
-                                                    <tr>
-                                                            <td style="padding-left: 2em;">UVic Athletics</td>
-                                                            <td>$82.10</td>
-                                                        </tr>
-                                                            <td style="padding-left: 2em;">Bus Pass</td>
-                                                            <td>$81.00</td>
-                                                        </tr>
-                                                            <td style="padding-left: 2em;">UVSS Student Membership</td>
-                                                            <td>$70.85</td>
-                                                        </tr>
-                                                <tr>
-                                                    <th>Total</th>
-                                                    <th>$2968.95</th>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                </div>
-                        
-                                <div class="col-md-5">
-                                    <h3>Balance
-                                        <div class=pull-right>
-                                            <a href="#" class="btn btn-primary">Pay Now <i class="fa fa-credit-card"></i></a>
-                                        </div>
-                                    </h3>
-                        
-                                    <p>Current Balance: <span class="text-danger text-bold">$637.12</span></p>
-                                    <div class="panel panel-default">
-                                        <table class="table table-hover" width="100%">
-                                            <thead>
-                                            <tr>
-                                                <th width="40%">Semester</th>
-                                                <th width="20%">Charges</th>
-                                                <th width="20%">Paid</th>
-                                                <th width="20%">Due</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>Spring 2016</td>
-                                                    <td>$2968.95</td>
-                                                    <td>$2331.83</td>
-                                                    <td class="text-danger text-bold">$637.12</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Fall 2015</td>
-                                                    <td>$3617.23</td>
-                                                    <td>$3617.23</td>
-                                                    <td class="">$0.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Spring 2015</td>
-                                                    <td>$2421.95</td>
-                                                    <td>$2421.95</td>
-                                                    <td class="">$0.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Fall 2014</td>
-                                                    <td>$3312.67</td>
-                                                    <td>$3312.67</td>
-                                                    <td class="">$0.00</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                        
-                                </div>
-                        
-                        
-                                <script>
-                                    function printFunction() {
-                                        window.print();
-                                    }
-                                </script>
-                        
-                        
-                            </div>
-                </div>
             </div>
+            <div style="min-height: 60vh;">
+            
+                <div class="row">
+                    <div class="col-md-7">
+                            <h3>Spring 2016
+                                <div class=pull-right>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                                                aria-haspopup="true" aria-expanded="false">
+                                            Print <i class="fa fa-print"></i> <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">All Semesters</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><a href="#">Summer 2013</a></li>
+                                            <li><a href="#">Fall 2013</a></li>
+                                            <li><a href="#">Spring 2014</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </h3>
+                            <p>&nbsp;</p>
+                            <div class="panel panel-default">
+                                <table class="table table-hover" width="100%">
+                                    <thead>
+                                    <tr>
+                                        <th width="80%">Description</th>
+                                        <th width="20%">Amount</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Courses</th>
+                                            <th>$2735.00</th>
+                                        </tr>
+                                        <tr>
+                                                <td style="padding-left: 2em;">CSC 226</td>
+                                                <td>$547.00</td>
+                                            </tr>
+                                                <td style="padding-left: 2em;">MATH 122</td>
+                                                <td>$547.00</td>
+                                            </tr>
+                                                <td style="padding-left: 2em;">SENG 310</td>
+                                                <td>$547.00</td>
+                                            </tr>
+                                                <td style="padding-left: 2em;">SENG 265</td>
+                                                <td>$547.00</td>
+                                            </tr>
+                                                <td style="padding-left: 2em;">ELEC 310</td>
+                                                <td>$547.00</td>
+                                            </tr>                            <tr>
+                                            <th>Fees</th>
+                                            <th>$233.95</th>
+                                        </tr>
+                                        <tr>
+                                                <td style="padding-left: 2em;">UVic Athletics</td>
+                                                <td>$82.10</td>
+                                            </tr>
+                                                <td style="padding-left: 2em;">Bus Pass</td>
+                                                <td>$81.00</td>
+                                            </tr>
+                                                <td style="padding-left: 2em;">UVSS Student Membership</td>
+                                                <td>$70.85</td>
+                                            </tr>
+                                    <tr>
+                                        <th>Total</th>
+                                        <th>$2968.95</th>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                    </div>
+            
+                    <div class="col-md-5">
+                        <h3>Balance
+                            <div class=pull-right>
+                                <a href="#" class="btn btn-primary">Pay Now <i class="fa fa-credit-card"></i></a>
+                            </div>
+                        </h3>
+            
+                        <p>Current Balance: <span class="text-danger text-bold">$637.12</span></p>
+                        <div class="panel panel-default">
+                            <table class="table table-hover" width="100%">
+                                <thead>
+                                <tr>
+                                    <th width="40%">Semester</th>
+                                    <th width="20%">Charges</th>
+                                    <th width="20%">Paid</th>
+                                    <th width="20%">Due</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Spring 2016</td>
+                                        <td>$2968.95</td>
+                                        <td>$2331.83</td>
+                                        <td class="text-danger text-bold">$637.12</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fall 2015</td>
+                                        <td>$3617.23</td>
+                                        <td>$3617.23</td>
+                                        <td class="">$0.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Spring 2015</td>
+                                        <td>$2421.95</td>
+                                        <td>$2421.95</td>
+                                        <td class="">$0.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fall 2014</td>
+                                        <td>$3312.67</td>
+                                        <td>$3312.67</td>
+                                        <td class="">$0.00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+            
+                    </div>
+            
+            
+                    <script>
+                        function printFunction() {
+                            window.print();
+                        }
+                    </script>
+            
+            
+                </div>
         </div>
     </div>
 </div>

@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>Home</title>
+    <title>MyUVic | Home</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width">    <link rel="stylesheet" href="/UVicMySpace/assets/css/MyPage.css">
@@ -1716,212 +1716,229 @@
 <div class="mypage">
     <div class="container">
         <div id="content">
-            <div class="panel with-nav-tabs panel-default">
-                <div class="panel-heading">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse"
+                                aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <span class="navbar-brand"><img alt="MyUVic" class="img-responsive" src="/UVicMySpace//assets/img/brand.svg"/></span>
+                    </div>
+            
+                    <div class="navbar-collapse collapse" id="nav-collapse" aria-expanded="false" style="height: 1px;">
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a >Home</a>
+                            </li>
+                            <li>
+                                <a href="/UVicMySpace/amy/courses/timetable.html">Courses</a>
+                            </li>
+                            <li>
+                                <a href="/UVicMySpace/amy/records/grades.html">Records</a>
+                            </li>
+                            <li>
+                                <a href="/UVicMySpace/amy/finances/account.html">Finances</a>
+                            </li>
+                            <li>
+                                <a href="/UVicMySpace/amy/help/faq.html">Help</a>
+                            </li>
+                        </ul>
+                        <form class="navbar-form navbar-right" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search MyUVic">
+                            </div>
+                            <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </nav>            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="nav nav-pills">
+                    </ul>                </div>
+            </div>
+            <div class="dashboard col-md-8">
+                <h3>Dashboard</h3>
+                <!-- tabs bottom -->
+                <div class="tabbable tabs-below">
+                    <div class="panel panel-default tab-content">
+                        <div class="panel-body tab-pane active"
+                             id="dashboard-week">
+                            <h4>Your Week</h4>
+                            <div class="panel panel-default">
+                                <!-- Table -->
+                                <table class="timetable" width="100%">
+                                    <thead>
+                                        <tr>
+                                            <th width="10%"><i class="fa fa-clock-o"></i></th>
+                                            <th width="18%">Monday</th>
+                                            <th width="18%">Tuesday</th>
+                                            <th width="18%">Wednesday</th>
+                                            <th width="18%">Thursday</th>
+                                            <th width="18%">Friday</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr class="half-hour">
+                                        <th class="time" rowspan="2">8 AM</th>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>
+                                    </tr>
+                                    <tr class="half-hour">
+                                        <th class="time" rowspan="2">9 AM</th>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>
+                                    </tr>
+                                    <tr class="half-hour">
+                                        <th class="time" rowspan="2">10 AM</th>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>
+                                    </tr>
+                                    <tr class="half-hour">
+                                        <th class="time" rowspan="2">11 AM</th>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>
+                                    </tr>
+                                    <tr class="half-hour">
+                                        <th class="time" rowspan="2">12 PM</th>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>
+                                    </tr>
+                                    <tr class="half-hour">
+                                        <th class="time" rowspan="2">1 PM</th>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>
+                                    </tr>
+                                    <tr class="half-hour">
+                                        <th class="time" rowspan="2">2 PM</th>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>
+                                    </tr>
+                                    <tr class="half-hour">
+                                        <th class="time" rowspan="2">3 PM</th>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>
+                                    </tr>
+                                    <tr class="half-hour">
+                                        <th class="time" rowspan="2">4 PM</th>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>
+                                    </tr>
+                                    <tr class="half-hour">
+                                        <th class="time" rowspan="2">5 PM</th>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                        <td><div class="fill"></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>            </div>
+                        <div class="panel-body tab-pane"
+                             id="dashboard-grades">
+                            <h4></h4>
+                            <div class="panel panel-default">
+                                <!-- Table -->
+                                <table class="timetable" width="100%">
+                                    <thead>
+                                        <tr>
+                                            <th width="10%"><i class="fa fa-clock-o"></i></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>            </div>
+                        <div class="panel-body tab-pane"
+                             id="dashboard-account">
+                            <h4></h4>
+                            <div class="panel panel-default">
+                                <!-- Table -->
+                                <table class="timetable" width="100%">
+                                    <thead>
+                                        <tr>
+                                            <th width="10%"><i class="fa fa-clock-o"></i></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>            </div>
+                    </div>
                     <ul class="nav nav-tabs">
                         <li class="active">
-                            <a >Home</a>
+                            <a href="#dashboard-week" data-toggle="tab">Week</a>
                         </li>
-                        <li>
-                            <a href="/UVicMySpace/amy/courses/timetable.html">Courses</a>
+                        <li class="">
+                            <a href="#dashboard-grades" data-toggle="tab">Grades</a>
                         </li>
-                        <li>
-                            <a href="/UVicMySpace/amy/records/grades.html">Records</a>
+                        <li class="">
+                            <a href="#dashboard-account" data-toggle="tab">Account</a>
                         </li>
-                        <li>
-                            <a href="/UVicMySpace/amy/finances/account.html">Finances</a>
-                        </li>
-                        <li>
-                            <a href="/UVicMySpace/amy/help/faq.html">Help</a>
-                        </li>
-                    </ul>                </div>
-                <div class="panel-body">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <ul class="nav nav-pills">
-                            </ul>                        </div>
-                    </div>
-                        <div class="dashboard col-md-8">
-                            <h3>Dashboard</h3>
-                            <!-- tabs bottom -->
-                            <div class="tabbable tabs-below">
-                                <div class="panel panel-default tab-content">
-                                    <div class="panel-body tab-pane active"
-                                         id="dashboard-week">
-                                        <h4>Your Week</h4>
-                                        <div class="panel panel-default">
-                                            <!-- Table -->
-                                            <table class="timetable" width="100%">
-                                                <thead>
-                                                    <tr>
-                                                        <th width="10%"><i class="fa fa-clock-o"></i></th>
-                                                        <th width="18%">Monday</th>
-                                                        <th width="18%">Tuesday</th>
-                                                        <th width="18%">Wednesday</th>
-                                                        <th width="18%">Thursday</th>
-                                                        <th width="18%">Friday</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                <tr class="half-hour">
-                                                    <th class="time" rowspan="2">8 AM</th>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>
-                                                </tr>
-                                                <tr class="half-hour">
-                                                    <th class="time" rowspan="2">9 AM</th>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>
-                                                </tr>
-                                                <tr class="half-hour">
-                                                    <th class="time" rowspan="2">10 AM</th>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>
-                                                </tr>
-                                                <tr class="half-hour">
-                                                    <th class="time" rowspan="2">11 AM</th>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>
-                                                </tr>
-                                                <tr class="half-hour">
-                                                    <th class="time" rowspan="2">12 PM</th>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>
-                                                </tr>
-                                                <tr class="half-hour">
-                                                    <th class="time" rowspan="2">1 PM</th>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>
-                                                </tr>
-                                                <tr class="half-hour">
-                                                    <th class="time" rowspan="2">2 PM</th>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>
-                                                </tr>
-                                                <tr class="half-hour">
-                                                    <th class="time" rowspan="2">3 PM</th>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>
-                                                </tr>
-                                                <tr class="half-hour">
-                                                    <th class="time" rowspan="2">4 PM</th>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>
-                                                </tr>
-                                                <tr class="half-hour">
-                                                    <th class="time" rowspan="2">5 PM</th>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                    <td><div class="fill"></div></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>            <td><div class="fill"></div></td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>            </div>
-                                    <div class="panel-body tab-pane"
-                                         id="dashboard-grades">
-                                        <h4></h4>
-                                        <div class="panel panel-default">
-                                            <!-- Table -->
-                                            <table class="timetable" width="100%">
-                                                <thead>
-                                                    <tr>
-                                                        <th width="10%"><i class="fa fa-clock-o"></i></th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                </tbody>
-                                            </table>
-                                        </div>            </div>
-                                    <div class="panel-body tab-pane"
-                                         id="dashboard-account">
-                                        <h4></h4>
-                                        <div class="panel panel-default">
-                                            <!-- Table -->
-                                            <table class="timetable" width="100%">
-                                                <thead>
-                                                    <tr>
-                                                        <th width="10%"><i class="fa fa-clock-o"></i></th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                </tbody>
-                                            </table>
-                                        </div>            </div>
-                                </div>
-                                <ul class="nav nav-tabs">
-                                    <li class="active">
-                                        <a href="#dashboard-week" data-toggle="tab">Week</a>
-                                    </li>
-                                    <li class="">
-                                        <a href="#dashboard-grades" data-toggle="tab">Grades</a>
-                                    </li>
-                                    <li class="">
-                                        <a href="#dashboard-account" data-toggle="tab">Account</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- /tabs -->
-                        </div>
+                    </ul>
                 </div>
+                <!-- /tabs -->
             </div>
         </div>
     </div>

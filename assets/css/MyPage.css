@@ -19320,7 +19320,7 @@ th {
 }
 .mypage .navbar-brand {
   float: left;
-  padding: 15px 15px;
+  padding: 12px;
   font-size: 18px;
   line-height: 20px;
   height: 50px;
@@ -19330,6 +19330,8 @@ th {
 }
 .mypage .navbar-brand > img {
   display: block;
+  max-height: 100%;
+  max-width: 100%;
 }
 @media (min-width: 768px) {
   .navbar > .container .mypage .navbar-brand, .navbar > .container-fluid .mypage .navbar-brand {
