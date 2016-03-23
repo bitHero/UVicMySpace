@@ -21748,7 +21748,7 @@ th {
 .mypage table.timetable > tfoot > tr > th > .event,
 .mypage table.timetable > tfoot > tr > td > .event {
   position: absolute;
-  width: 98%;
+  width: 95%;
   margin: auto 1px;
   height: 14px;
   padding: 6px;
