@@ -21714,8 +21714,8 @@ th {
     display: none !important;
   }
 }
-.mypage .dashboard .tabbable .tab-content {
-  min-height: 50vh;
+.mypage .dashboard .tabbable {
+  margin-bottom: 20px;
 }
 .mypage table.timetable {
   width: 100%;
@@ -21780,8 +21780,11 @@ th {
   border: none;
 }
 .mypage table.timetable > thead > tr > th {
+  color: #777777;
   vertical-align: bottom;
   border-bottom: 2px solid #ddd;
+  text-transform: uppercase;
+  font-size: 12px;
 }
 .mypage table.timetable > caption + thead > tr:first-child > th,
 .mypage table.timetable > caption + thead > tr:first-child > td,
