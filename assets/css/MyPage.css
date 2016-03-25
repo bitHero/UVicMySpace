@@ -21731,7 +21731,14 @@ th {
   line-height: 1.42857;
   position: relative;
   vertical-align: top;
-  text-align: center;
+}
+.mypage table.timetable > thead > tr > th.today,
+.mypage table.timetable > thead > tr > td.today,
+.mypage table.timetable > tbody > tr > th.today,
+.mypage table.timetable > tbody > tr > td.today,
+.mypage table.timetable > tfoot > tr > th.today,
+.mypage table.timetable > tfoot > tr > td.today {
+  background: #f5f5f5;
 }
 .mypage table.timetable > thead > tr > th > .fill,
 .mypage table.timetable > thead > tr > td > .fill,
@@ -21747,16 +21754,17 @@ th {
 .mypage table.timetable > tbody > tr > td > .event,
 .mypage table.timetable > tfoot > tr > th > .event,
 .mypage table.timetable > tfoot > tr > td > .event {
-  position: absolute;
-  width: 95%;
-  margin: auto 1px;
+  width: 96%;
   height: 14px;
+  margin: 0 2%;
   padding: 6px;
   border-radius: 4px;
   color: #555555;
   background: #eeeeee;
   text-align: left;
+  position: absolute;
   overflow: hidden;
+  z-index: 1;
 }
 .mypage table.timetable > thead > tr > th > .event .event-title,
 .mypage table.timetable > thead > tr > td > .event .event-title,
@@ -21769,6 +21777,60 @@ th {
   white-space: nowrap;
   padding: 0;
   margin: 0;
+}
+.mypage table.timetable > thead > tr > th > .event.event-course-1,
+.mypage table.timetable > thead > tr > td > .event.event-course-1,
+.mypage table.timetable > tbody > tr > th > .event.event-course-1,
+.mypage table.timetable > tbody > tr > td > .event.event-course-1,
+.mypage table.timetable > tfoot > tr > th > .event.event-course-1,
+.mypage table.timetable > tfoot > tr > td > .event.event-course-1 {
+  color: #185a88;
+  background: #aed6f1;
+}
+.mypage table.timetable > thead > tr > th > .event.event-course-2,
+.mypage table.timetable > thead > tr > td > .event.event-course-2,
+.mypage table.timetable > tbody > tr > th > .event.event-course-2,
+.mypage table.timetable > tbody > tr > td > .event.event-course-2,
+.mypage table.timetable > tfoot > tr > th > .event.event-course-2,
+.mypage table.timetable > tfoot > tr > td > .event.event-course-2 {
+  color: #da6600;
+  background: #ffebda;
+}
+.mypage table.timetable > thead > tr > th > .event.event-course-3,
+.mypage table.timetable > thead > tr > td > .event.event-course-3,
+.mypage table.timetable > tbody > tr > th > .event.event-course-3,
+.mypage table.timetable > tbody > tr > td > .event.event-course-3,
+.mypage table.timetable > tfoot > tr > th > .event.event-course-3,
+.mypage table.timetable > tfoot > tr > td > .event.event-course-3 {
+  color: #217821;
+  background: #afe9af;
+}
+.mypage table.timetable > thead > tr > th > .event.event-course-4,
+.mypage table.timetable > thead > tr > td > .event.event-course-4,
+.mypage table.timetable > tbody > tr > th > .event.event-course-4,
+.mypage table.timetable > tbody > tr > td > .event.event-course-4,
+.mypage table.timetable > tfoot > tr > th > .event.event-course-4,
+.mypage table.timetable > tfoot > tr > td > .event.event-course-4 {
+  color: #ab1f20;
+  background: #f7d2d2;
+}
+.mypage table.timetable > thead > tr > th > .event.event-course-5,
+.mypage table.timetable > thead > tr > td > .event.event-course-5,
+.mypage table.timetable > tbody > tr > th > .event.event-course-5,
+.mypage table.timetable > tbody > tr > td > .event.event-course-5,
+.mypage table.timetable > tfoot > tr > th > .event.event-course-5,
+.mypage table.timetable > tfoot > tr > td > .event.event-course-5 {
+  color: #644481;
+  background: #e2d9eb;
+}
+.mypage table.timetable > thead > tr > th > .event.event-course-6,
+.mypage table.timetable > thead > tr > td > .event.event-course-6,
+.mypage table.timetable > tbody > tr > th > .event.event-course-6,
+.mypage table.timetable > tbody > tr > td > .event.event-course-6,
+.mypage table.timetable > tfoot > tr > th > .event.event-course-6,
+.mypage table.timetable > tfoot > tr > td > .event.event-course-6 {
+  color: #84426e;
+  background: #ecd9e6;
 }
 .mypage table.timetable > thead > tr > th,
 .mypage table.timetable > tbody > tr > th,
@@ -21787,13 +21849,13 @@ th {
 .mypage table.timetable > thead > tr.half-hour > td,
 .mypage table.timetable > tbody > tr.half-hour > td,
 .mypage table.timetable > tfoot > tr.half-hour > td {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px dotted #ddd;
+  border: none;
 }
 .mypage table.timetable > thead > tr > td,
 .mypage table.timetable > tbody > tr > td,
 .mypage table.timetable > tfoot > tr > td {
-  border: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px dotted #ddd;
 }
 .mypage table.timetable > thead > tr > th {
   color: #777777;
