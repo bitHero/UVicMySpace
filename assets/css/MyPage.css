@@ -21814,6 +21814,7 @@ th {
   position: absolute;
   overflow: hidden;
   z-index: 1;
+  cursor: pointer;
 }
 .mypage table.timetable > thead > tr > th > .event .event-title,
 .mypage table.timetable > thead > tr > td > .event .event-title,
@@ -21836,6 +21837,19 @@ th {
   color: #185a88;
   background: #aed6f1;
 }
+.mypage table.timetable > thead > tr > th > .event.event-course-1:hover, .mypage table.timetable > thead > tr > th > .event.event-course-1:focus,
+.mypage table.timetable > thead > tr > td > .event.event-course-1:hover,
+.mypage table.timetable > thead > tr > td > .event.event-course-1:focus,
+.mypage table.timetable > tbody > tr > th > .event.event-course-1:hover,
+.mypage table.timetable > tbody > tr > th > .event.event-course-1:focus,
+.mypage table.timetable > tbody > tr > td > .event.event-course-1:hover,
+.mypage table.timetable > tbody > tr > td > .event.event-course-1:focus,
+.mypage table.timetable > tfoot > tr > th > .event.event-course-1:hover,
+.mypage table.timetable > tfoot > tr > th > .event.event-course-1:focus,
+.mypage table.timetable > tfoot > tr > td > .event.event-course-1:hover,
+.mypage table.timetable > tfoot > tr > td > .event.event-course-1:focus {
+  background: #82bfea;
+}
 .mypage table.timetable > thead > tr > th > .event.event-course-2,
 .mypage table.timetable > thead > tr > td > .event.event-course-2,
 .mypage table.timetable > tbody > tr > th > .event.event-course-2,
@@ -21844,6 +21858,19 @@ th {
 .mypage table.timetable > tfoot > tr > td > .event.event-course-2 {
   color: #da6600;
   background: #ffebda;
+}
+.mypage table.timetable > thead > tr > th > .event.event-course-2:hover, .mypage table.timetable > thead > tr > th > .event.event-course-2:focus,
+.mypage table.timetable > thead > tr > td > .event.event-course-2:hover,
+.mypage table.timetable > thead > tr > td > .event.event-course-2:focus,
+.mypage table.timetable > tbody > tr > th > .event.event-course-2:hover,
+.mypage table.timetable > tbody > tr > th > .event.event-course-2:focus,
+.mypage table.timetable > tbody > tr > td > .event.event-course-2:hover,
+.mypage table.timetable > tbody > tr > td > .event.event-course-2:focus,
+.mypage table.timetable > tfoot > tr > th > .event.event-course-2:hover,
+.mypage table.timetable > tfoot > tr > th > .event.event-course-2:focus,
+.mypage table.timetable > tfoot > tr > td > .event.event-course-2:hover,
+.mypage table.timetable > tfoot > tr > td > .event.event-course-2:focus {
+  background: #ffd0a7;
 }
 .mypage table.timetable > thead > tr > th > .event.event-course-3,
 .mypage table.timetable > thead > tr > td > .event.event-course-3,
@@ -21854,6 +21881,19 @@ th {
   color: #217821;
   background: #afe9af;
 }
+.mypage table.timetable > thead > tr > th > .event.event-course-3:hover, .mypage table.timetable > thead > tr > th > .event.event-course-3:focus,
+.mypage table.timetable > thead > tr > td > .event.event-course-3:hover,
+.mypage table.timetable > thead > tr > td > .event.event-course-3:focus,
+.mypage table.timetable > tbody > tr > th > .event.event-course-3:hover,
+.mypage table.timetable > tbody > tr > th > .event.event-course-3:focus,
+.mypage table.timetable > tbody > tr > td > .event.event-course-3:hover,
+.mypage table.timetable > tbody > tr > td > .event.event-course-3:focus,
+.mypage table.timetable > tfoot > tr > th > .event.event-course-3:hover,
+.mypage table.timetable > tfoot > tr > th > .event.event-course-3:focus,
+.mypage table.timetable > tfoot > tr > td > .event.event-course-3:hover,
+.mypage table.timetable > tfoot > tr > td > .event.event-course-3:focus {
+  background: #87de87;
+}
 .mypage table.timetable > thead > tr > th > .event.event-course-4,
 .mypage table.timetable > thead > tr > td > .event.event-course-4,
 .mypage table.timetable > tbody > tr > th > .event.event-course-4,
@@ -21862,6 +21902,19 @@ th {
 .mypage table.timetable > tfoot > tr > td > .event.event-course-4 {
   color: #ab1f20;
   background: #f7d2d2;
+}
+.mypage table.timetable > thead > tr > th > .event.event-course-4:hover, .mypage table.timetable > thead > tr > th > .event.event-course-4:focus,
+.mypage table.timetable > thead > tr > td > .event.event-course-4:hover,
+.mypage table.timetable > thead > tr > td > .event.event-course-4:focus,
+.mypage table.timetable > tbody > tr > th > .event.event-course-4:hover,
+.mypage table.timetable > tbody > tr > th > .event.event-course-4:focus,
+.mypage table.timetable > tbody > tr > td > .event.event-course-4:hover,
+.mypage table.timetable > tbody > tr > td > .event.event-course-4:focus,
+.mypage table.timetable > tfoot > tr > th > .event.event-course-4:hover,
+.mypage table.timetable > tfoot > tr > th > .event.event-course-4:focus,
+.mypage table.timetable > tfoot > tr > td > .event.event-course-4:hover,
+.mypage table.timetable > tfoot > tr > td > .event.event-course-4:focus {
+  background: #efa7a7;
 }
 .mypage table.timetable > thead > tr > th > .event.event-course-5,
 .mypage table.timetable > thead > tr > td > .event.event-course-5,
@@ -21872,6 +21925,19 @@ th {
   color: #644481;
   background: #e2d9eb;
 }
+.mypage table.timetable > thead > tr > th > .event.event-course-5:hover, .mypage table.timetable > thead > tr > th > .event.event-course-5:focus,
+.mypage table.timetable > thead > tr > td > .event.event-course-5:hover,
+.mypage table.timetable > thead > tr > td > .event.event-course-5:focus,
+.mypage table.timetable > tbody > tr > th > .event.event-course-5:hover,
+.mypage table.timetable > tbody > tr > th > .event.event-course-5:focus,
+.mypage table.timetable > tbody > tr > td > .event.event-course-5:hover,
+.mypage table.timetable > tbody > tr > td > .event.event-course-5:focus,
+.mypage table.timetable > tfoot > tr > th > .event.event-course-5:hover,
+.mypage table.timetable > tfoot > tr > th > .event.event-course-5:focus,
+.mypage table.timetable > tfoot > tr > td > .event.event-course-5:hover,
+.mypage table.timetable > tfoot > tr > td > .event.event-course-5:focus {
+  background: #c9b7da;
+}
 .mypage table.timetable > thead > tr > th > .event.event-course-6,
 .mypage table.timetable > thead > tr > td > .event.event-course-6,
 .mypage table.timetable > tbody > tr > th > .event.event-course-6,
@@ -21880,6 +21946,19 @@ th {
 .mypage table.timetable > tfoot > tr > td > .event.event-course-6 {
   color: #84426e;
   background: #ecd9e6;
+}
+.mypage table.timetable > thead > tr > th > .event.event-course-6:hover, .mypage table.timetable > thead > tr > th > .event.event-course-6:focus,
+.mypage table.timetable > thead > tr > td > .event.event-course-6:hover,
+.mypage table.timetable > thead > tr > td > .event.event-course-6:focus,
+.mypage table.timetable > tbody > tr > th > .event.event-course-6:hover,
+.mypage table.timetable > tbody > tr > th > .event.event-course-6:focus,
+.mypage table.timetable > tbody > tr > td > .event.event-course-6:hover,
+.mypage table.timetable > tbody > tr > td > .event.event-course-6:focus,
+.mypage table.timetable > tfoot > tr > th > .event.event-course-6:hover,
+.mypage table.timetable > tfoot > tr > th > .event.event-course-6:focus,
+.mypage table.timetable > tfoot > tr > td > .event.event-course-6:hover,
+.mypage table.timetable > tfoot > tr > td > .event.event-course-6:focus {
+  background: #dbb7cf;
 }
 .mypage table.timetable > thead > tr > th,
 .mypage table.timetable > tbody > tr > th,
