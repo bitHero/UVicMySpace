@@ -11,13 +11,8 @@
   font-weight: normal;
   font-style: normal;
 }
-#uvic-HTML_1 {
-  height: 412.891px;
-  width: 100%;
-  z-index: 0;
-  background: white none repeat scroll 0% 0%/auto padding-box border-box;
-  font: normal normal normal normal 16px / 16px Times;
-  overflow: auto;
+html {
+  overflow-x: hidden;
 }
 
 /*#uvic-HTML_1*/
@@ -268,7 +263,6 @@
 #uvic-NAV_36 {
   color: #333333;
   height: 39.9531px;
-  min-width: 960px;
   width: 100%;
   z-index: 0;
   transform: matrix(1, 0, 0, 1, 0, 0);
@@ -285,7 +279,6 @@
 #uvic-DIV_37 {
   color: #333333;
   height: 39.9531px;
-  min-width: 960px;
   position: relative;
   width: 100%;
   border: 0px none #333333;
@@ -1640,6 +1633,12 @@
   font: normal normal normal normal 12px / 16px Verdana, Arial, Helvetica, sans-serif;
   list-style: none outside none;
   outline: #333333 none 0px;
+  /* Medium Devices, Desktops */
+}
+@media only screen and (max-width: 767px) {
+  #uvic-LI_144 {
+    display: none;
+  }
 }
 
 /*#uvic-LI_144*/
@@ -3220,6 +3219,12 @@
   font: normal normal normal normal 12px / 16px Verdana, Arial, Helvetica, sans-serif;
   list-style: none outside none;
   outline: #333333 none 0px;
+  /* Medium Devices, Desktops */
+}
+@media only screen and (max-width: 767px) {
+  #uvic-LI_277 {
+    display: none;
+  }
 }
 
 /*#uvic-LI_277*/
@@ -4052,6 +4057,12 @@
   font: normal normal normal normal 12px / 16px Verdana, Arial, Helvetica, sans-serif;
   list-style: none outside none;
   outline: #333333 none 0px;
+  /* Medium Devices, Desktops */
+}
+@media only screen and (max-width: 767px) {
+  #uvic-LI_342 {
+    display: none;
+  }
 }
 
 /*#uvic-LI_342*/
@@ -5327,6 +5338,12 @@
   font: normal normal normal normal 12px / 16px Verdana, Arial, Helvetica, sans-serif;
   list-style: none outside none;
   outline: #333333 none 0px;
+  /* Medium Devices, Desktops */
+}
+@media only screen and (max-width: 767px) {
+  #uvic-LI_442 {
+    display: none;
+  }
 }
 
 /*#uvic-LI_442*/
@@ -6176,6 +6193,12 @@
   font: normal normal normal normal 12px / 16px Verdana, Arial, Helvetica, sans-serif;
   list-style: none outside none;
   outline: #333333 none 0px;
+  /* Medium Devices, Desktops */
+}
+@media only screen and (max-width: 767px) {
+  #uvic-LI_507 {
+    display: none;
+  }
 }
 
 /*#uvic-LI_507*/
@@ -7582,6 +7605,12 @@
   font: normal normal normal normal 12px / 16px Verdana, Arial, Helvetica, sans-serif;
   list-style: none outside none;
   outline: #333333 none 0px;
+  /* Medium Devices, Desktops */
+}
+@media only screen and (max-width: 767px) {
+  #uvic-LI_622 {
+    display: none;
+  }
 }
 
 /*#uvic-LI_622*/
@@ -9590,6 +9619,12 @@
   font: normal normal normal normal 12px / 16px Verdana, Arial, Helvetica, sans-serif;
   list-style: none outside none;
   outline: #333333 none 0px;
+  /* Medium Devices, Desktops */
+}
+@media only screen and (max-width: 767px) {
+  #uvic-LI_781 {
+    display: none;
+  }
 }
 
 /*#uvic-LI_781*/
@@ -10968,7 +11003,6 @@
   float: right;
   height: 35.9688px;
   white-space: nowrap;
-  width: 104.297px;
   border: 0px none #333333;
   font: normal normal normal normal 12px / 16px Verdana, Arial, Helvetica, sans-serif;
   list-style: none outside none;
@@ -10983,7 +11017,6 @@
   text-align: left;
   text-decoration: none;
   white-space: nowrap;
-  width: 87.3438px;
   background: #eeeeee none repeat scroll 0% 0%/auto padding-box border-box;
   border: 0px none black;
   border-radius: 3.9996px 3.9996px 3.9996px 3.9996px;
@@ -12838,8 +12871,7 @@
   box-shadow: rgba(0, 0, 0, 0.23922) 0px 0px 7.9992px 3.9996px;
   clear: both;
   color: #333333;
-  height: 183.984px;
-  min-width: 960px;
+  height: 184px;
   position: relative;
   width: 100%;
   background: none repeat scroll 0% 0%/100% padding-box border-box, transparent linear-gradient(#003366, #2d559b) repeat scroll 0% 0%/100% padding-box border-box;
@@ -12847,13 +12879,18 @@
   font: normal normal normal normal 12px / 15.9984px Verdana, Arial, Helvetica, sans-serif;
   margin: 0px 0px 15.9996px;
   outline: #333333 none 0px;
+  /* Medium Devices, Desktops */
+}
+@media only screen and (max-width: 767px) {
+  #uvic-HEADER_1032 {
+    height: 102px;
+  }
 }
 
 /*#uvic-HEADER_1032*/
 #uvic-DIV_1033 {
   color: #333333;
   height: 183.984px;
-  min-width: 960px;
   width: 100%;
   border: 0px none #333333;
   font: normal normal normal normal 12px / 15.9984px Verdana, Arial, Helvetica, sans-serif;
@@ -13311,6 +13348,12 @@
   border: 0px none white;
   font: normal normal bold normal 12px / 15.9984px Arial, sans-serif;
   outline: white none 0px;
+  /* Medium Devices, Desktops */
+}
+@media only screen and (max-width: 767px) {
+  #uvic-NAV_1066 {
+    display: none;
+  }
 }
 
 /*#uvic-NAV_1066*/
@@ -13332,6 +13375,12 @@
   margin: 0px;
   outline: white none 0px;
   padding: 0px 8.00004px 48px;
+  /* Medium Devices, Desktops */
+}
+@media only screen and (max-width: 767px) {
+  #uvic-UL_1068 {
+    display: none;
+  }
 }
 
 /*#uvic-UL_1068*/
@@ -13412,7 +13461,6 @@
   text-align: left;
   visibility: hidden;
   white-space: nowrap;
-  width: 885.875px;
   border: 0px none white;
   font: normal normal bold normal 12px / 16px Arial, sans-serif;
   list-style: square outside none;
@@ -14149,7 +14197,6 @@
 #uvic-DIV_1117 {
   clear: both;
   color: #333333;
-  min-width: 960px;
   position: relative;
   width: 1365.03px;
   border: 0px none #333333;
@@ -14165,7 +14212,6 @@
   clear: both;
   color: #666666;
   height: 139px;
-  min-width: 960px;
   width: 100%;
   background: #e8e8e8 url("https://www.uvic.ca/assets2012/template3-2/images/footerslice-80px.jpg") repeat-x scroll 0px 100%/auto padding-box border-box;
   border-top: 1px solid #cccccc;
@@ -14175,13 +14221,18 @@
   font: normal normal normal normal 12px / 15.9984px Verdana, Arial, Helvetica, sans-serif;
   outline: #666666 none 0px;
   padding: 15.9996px 0px;
+  /* Medium Devices, Desktops */
+}
+@media only screen and (max-width: 767px) {
+  #uvic-FOOTER_1118 {
+    display: none;
+  }
 }
 
 /*#uvic-FOOTER_1118*/
 #uvic-DIV_1119 {
   color: #666666;
   height: 139px;
-  min-width: 960px;
   width: 960px;
   border: 0px none #666666;
   font: normal normal normal normal 12px / 15.9984px Verdana, Arial, Helvetica, sans-serif;
@@ -15891,7 +15942,6 @@
   color: #222222;
   left: -3.35544 e7px;
   position: absolute;
-  width: 204px;
   background: white url("https://www.uvic.ca/assets2012/portal/images/themes/smoothness/ui-bg_flat_75_ffffff_40x100.png") repeat-x scroll 50% 50%/auto padding-box border-box;
   border: 0px none #222222;
   border-radius: 4px 4px 4px 4px;
@@ -15906,7 +15956,6 @@
   content: '.';
   display: block;
   visibility: hidden;
-  width: 204px;
   border: 0px none #222222;
   font: normal normal normal normal 12px / 15.9984px arial, helvetica, clean, sans-serif;
   outline: #222222 none 0px;
