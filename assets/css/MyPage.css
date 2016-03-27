@@ -21797,169 +21797,6 @@ th {
 .mypage table.timetable > tfoot > tr > td > .fill {
   height: 16px;
 }
-.mypage table.timetable > thead > tr > th > .event,
-.mypage table.timetable > thead > tr > td > .event,
-.mypage table.timetable > tbody > tr > th > .event,
-.mypage table.timetable > tbody > tr > td > .event,
-.mypage table.timetable > tfoot > tr > th > .event,
-.mypage table.timetable > tfoot > tr > td > .event {
-  width: 96%;
-  height: 14px;
-  margin: 0 2%;
-  padding: 6px;
-  border-radius: 4px;
-  color: #555555;
-  background: #eeeeee;
-  text-align: left;
-  position: absolute;
-  overflow: hidden;
-  z-index: 1;
-  cursor: pointer;
-}
-.mypage table.timetable > thead > tr > th > .event .event-title,
-.mypage table.timetable > thead > tr > td > .event .event-title,
-.mypage table.timetable > tbody > tr > th > .event .event-title,
-.mypage table.timetable > tbody > tr > td > .event .event-title,
-.mypage table.timetable > tfoot > tr > th > .event .event-title,
-.mypage table.timetable > tfoot > tr > td > .event .event-title {
-  font-size: 12px;
-  font-weight: bold;
-  white-space: nowrap;
-  padding: 0;
-  margin: 0;
-}
-.mypage table.timetable > thead > tr > th > .event.event-course-1,
-.mypage table.timetable > thead > tr > td > .event.event-course-1,
-.mypage table.timetable > tbody > tr > th > .event.event-course-1,
-.mypage table.timetable > tbody > tr > td > .event.event-course-1,
-.mypage table.timetable > tfoot > tr > th > .event.event-course-1,
-.mypage table.timetable > tfoot > tr > td > .event.event-course-1 {
-  color: #185a88;
-  background: #aed6f1;
-}
-.mypage table.timetable > thead > tr > th > .event.event-course-1:hover, .mypage table.timetable > thead > tr > th > .event.event-course-1:focus,
-.mypage table.timetable > thead > tr > td > .event.event-course-1:hover,
-.mypage table.timetable > thead > tr > td > .event.event-course-1:focus,
-.mypage table.timetable > tbody > tr > th > .event.event-course-1:hover,
-.mypage table.timetable > tbody > tr > th > .event.event-course-1:focus,
-.mypage table.timetable > tbody > tr > td > .event.event-course-1:hover,
-.mypage table.timetable > tbody > tr > td > .event.event-course-1:focus,
-.mypage table.timetable > tfoot > tr > th > .event.event-course-1:hover,
-.mypage table.timetable > tfoot > tr > th > .event.event-course-1:focus,
-.mypage table.timetable > tfoot > tr > td > .event.event-course-1:hover,
-.mypage table.timetable > tfoot > tr > td > .event.event-course-1:focus {
-  background: #82bfea;
-}
-.mypage table.timetable > thead > tr > th > .event.event-course-2,
-.mypage table.timetable > thead > tr > td > .event.event-course-2,
-.mypage table.timetable > tbody > tr > th > .event.event-course-2,
-.mypage table.timetable > tbody > tr > td > .event.event-course-2,
-.mypage table.timetable > tfoot > tr > th > .event.event-course-2,
-.mypage table.timetable > tfoot > tr > td > .event.event-course-2 {
-  color: #da6600;
-  background: #ffebda;
-}
-.mypage table.timetable > thead > tr > th > .event.event-course-2:hover, .mypage table.timetable > thead > tr > th > .event.event-course-2:focus,
-.mypage table.timetable > thead > tr > td > .event.event-course-2:hover,
-.mypage table.timetable > thead > tr > td > .event.event-course-2:focus,
-.mypage table.timetable > tbody > tr > th > .event.event-course-2:hover,
-.mypage table.timetable > tbody > tr > th > .event.event-course-2:focus,
-.mypage table.timetable > tbody > tr > td > .event.event-course-2:hover,
-.mypage table.timetable > tbody > tr > td > .event.event-course-2:focus,
-.mypage table.timetable > tfoot > tr > th > .event.event-course-2:hover,
-.mypage table.timetable > tfoot > tr > th > .event.event-course-2:focus,
-.mypage table.timetable > tfoot > tr > td > .event.event-course-2:hover,
-.mypage table.timetable > tfoot > tr > td > .event.event-course-2:focus {
-  background: #ffd0a7;
-}
-.mypage table.timetable > thead > tr > th > .event.event-course-3,
-.mypage table.timetable > thead > tr > td > .event.event-course-3,
-.mypage table.timetable > tbody > tr > th > .event.event-course-3,
-.mypage table.timetable > tbody > tr > td > .event.event-course-3,
-.mypage table.timetable > tfoot > tr > th > .event.event-course-3,
-.mypage table.timetable > tfoot > tr > td > .event.event-course-3 {
-  color: #217821;
-  background: #afe9af;
-}
-.mypage table.timetable > thead > tr > th > .event.event-course-3:hover, .mypage table.timetable > thead > tr > th > .event.event-course-3:focus,
-.mypage table.timetable > thead > tr > td > .event.event-course-3:hover,
-.mypage table.timetable > thead > tr > td > .event.event-course-3:focus,
-.mypage table.timetable > tbody > tr > th > .event.event-course-3:hover,
-.mypage table.timetable > tbody > tr > th > .event.event-course-3:focus,
-.mypage table.timetable > tbody > tr > td > .event.event-course-3:hover,
-.mypage table.timetable > tbody > tr > td > .event.event-course-3:focus,
-.mypage table.timetable > tfoot > tr > th > .event.event-course-3:hover,
-.mypage table.timetable > tfoot > tr > th > .event.event-course-3:focus,
-.mypage table.timetable > tfoot > tr > td > .event.event-course-3:hover,
-.mypage table.timetable > tfoot > tr > td > .event.event-course-3:focus {
-  background: #87de87;
-}
-.mypage table.timetable > thead > tr > th > .event.event-course-4,
-.mypage table.timetable > thead > tr > td > .event.event-course-4,
-.mypage table.timetable > tbody > tr > th > .event.event-course-4,
-.mypage table.timetable > tbody > tr > td > .event.event-course-4,
-.mypage table.timetable > tfoot > tr > th > .event.event-course-4,
-.mypage table.timetable > tfoot > tr > td > .event.event-course-4 {
-  color: #ab1f20;
-  background: #f7d2d2;
-}
-.mypage table.timetable > thead > tr > th > .event.event-course-4:hover, .mypage table.timetable > thead > tr > th > .event.event-course-4:focus,
-.mypage table.timetable > thead > tr > td > .event.event-course-4:hover,
-.mypage table.timetable > thead > tr > td > .event.event-course-4:focus,
-.mypage table.timetable > tbody > tr > th > .event.event-course-4:hover,
-.mypage table.timetable > tbody > tr > th > .event.event-course-4:focus,
-.mypage table.timetable > tbody > tr > td > .event.event-course-4:hover,
-.mypage table.timetable > tbody > tr > td > .event.event-course-4:focus,
-.mypage table.timetable > tfoot > tr > th > .event.event-course-4:hover,
-.mypage table.timetable > tfoot > tr > th > .event.event-course-4:focus,
-.mypage table.timetable > tfoot > tr > td > .event.event-course-4:hover,
-.mypage table.timetable > tfoot > tr > td > .event.event-course-4:focus {
-  background: #efa7a7;
-}
-.mypage table.timetable > thead > tr > th > .event.event-course-5,
-.mypage table.timetable > thead > tr > td > .event.event-course-5,
-.mypage table.timetable > tbody > tr > th > .event.event-course-5,
-.mypage table.timetable > tbody > tr > td > .event.event-course-5,
-.mypage table.timetable > tfoot > tr > th > .event.event-course-5,
-.mypage table.timetable > tfoot > tr > td > .event.event-course-5 {
-  color: #644481;
-  background: #e2d9eb;
-}
-.mypage table.timetable > thead > tr > th > .event.event-course-5:hover, .mypage table.timetable > thead > tr > th > .event.event-course-5:focus,
-.mypage table.timetable > thead > tr > td > .event.event-course-5:hover,
-.mypage table.timetable > thead > tr > td > .event.event-course-5:focus,
-.mypage table.timetable > tbody > tr > th > .event.event-course-5:hover,
-.mypage table.timetable > tbody > tr > th > .event.event-course-5:focus,
-.mypage table.timetable > tbody > tr > td > .event.event-course-5:hover,
-.mypage table.timetable > tbody > tr > td > .event.event-course-5:focus,
-.mypage table.timetable > tfoot > tr > th > .event.event-course-5:hover,
-.mypage table.timetable > tfoot > tr > th > .event.event-course-5:focus,
-.mypage table.timetable > tfoot > tr > td > .event.event-course-5:hover,
-.mypage table.timetable > tfoot > tr > td > .event.event-course-5:focus {
-  background: #c9b7da;
-}
-.mypage table.timetable > thead > tr > th > .event.event-course-6,
-.mypage table.timetable > thead > tr > td > .event.event-course-6,
-.mypage table.timetable > tbody > tr > th > .event.event-course-6,
-.mypage table.timetable > tbody > tr > td > .event.event-course-6,
-.mypage table.timetable > tfoot > tr > th > .event.event-course-6,
-.mypage table.timetable > tfoot > tr > td > .event.event-course-6 {
-  color: #84426e;
-  background: #ecd9e6;
-}
-.mypage table.timetable > thead > tr > th > .event.event-course-6:hover, .mypage table.timetable > thead > tr > th > .event.event-course-6:focus,
-.mypage table.timetable > thead > tr > td > .event.event-course-6:hover,
-.mypage table.timetable > thead > tr > td > .event.event-course-6:focus,
-.mypage table.timetable > tbody > tr > th > .event.event-course-6:hover,
-.mypage table.timetable > tbody > tr > th > .event.event-course-6:focus,
-.mypage table.timetable > tbody > tr > td > .event.event-course-6:hover,
-.mypage table.timetable > tbody > tr > td > .event.event-course-6:focus,
-.mypage table.timetable > tfoot > tr > th > .event.event-course-6:hover,
-.mypage table.timetable > tfoot > tr > th > .event.event-course-6:focus,
-.mypage table.timetable > tfoot > tr > td > .event.event-course-6:hover,
-.mypage table.timetable > tfoot > tr > td > .event.event-course-6:focus {
-  background: #dbb7cf;
-}
 .mypage table.timetable > thead > tr > th,
 .mypage table.timetable > tbody > tr > th,
 .mypage table.timetable > tfoot > tr > th {
@@ -22006,6 +21843,97 @@ th {
 }
 .mypage table.timetable .table {
   background-color: #fff;
+}
+.mypage table.timetable .event {
+  width: 96%;
+  height: 14px;
+  margin: 0 2%;
+  padding: 6px;
+  border-radius: 4px;
+  border-left: solid 3px;
+  color: #555555;
+  background: #eeeeee;
+  text-align: left;
+  position: absolute;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+}
+.mypage table.timetable .event .event-title {
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+  padding: 0;
+  margin: 0;
+}
+.mypage table.timetable .event.active {
+  border-left: solid 3px transparent;
+}
+.mypage table.timetable .event.event-course-1 {
+  color: #1f77b4;
+  background: #aed6f1;
+}
+.mypage table.timetable .event.event-course-1:hover, .mypage table.timetable .event.event-course-1:focus {
+  background: #98caed;
+}
+.mypage table.timetable .event.event-course-1.active {
+  color: #fff;
+  background: #1f77b4;
+}
+.mypage table.timetable .event.event-course-2 {
+  color: #ff7f0e;
+  background: #ffebda;
+}
+.mypage table.timetable .event.event-course-2:hover, .mypage table.timetable .event.event-course-2:focus {
+  background: #ffdec1;
+}
+.mypage table.timetable .event.event-course-2.active {
+  color: #fff;
+  background: #ff7f0e;
+}
+.mypage table.timetable .event.event-course-3 {
+  color: #2ca02c;
+  background: #afe9af;
+}
+.mypage table.timetable .event.event-course-3:hover, .mypage table.timetable .event.event-course-3:focus {
+  background: #9be49b;
+}
+.mypage table.timetable .event.event-course-3.active {
+  color: #fff;
+  background: #2ca02c;
+}
+.mypage table.timetable .event.event-course-4 {
+  color: #d62728;
+  background: #f7d2d2;
+}
+.mypage table.timetable .event.event-course-4:hover, .mypage table.timetable .event.event-course-4:focus {
+  background: #f3bdbd;
+}
+.mypage table.timetable .event.event-course-4.active {
+  color: #fff;
+  background: #d62728;
+}
+.mypage table.timetable .event.event-course-5 {
+  color: #7e55a3;
+  background: #e2d9eb;
+}
+.mypage table.timetable .event.event-course-5:hover, .mypage table.timetable .event.event-course-5:focus {
+  background: #d6c8e2;
+}
+.mypage table.timetable .event.event-course-5.active {
+  color: #fff;
+  background: #7e55a3;
+}
+.mypage table.timetable .event.event-course-6 {
+  color: #a6538a;
+  background: #ecd9e6;
+}
+.mypage table.timetable .event.event-course-6:hover, .mypage table.timetable .event.event-course-6:focus {
+  background: #e4c8da;
+}
+.mypage table.timetable .event.event-course-6.active {
+  color: #fff;
+  background: #a6538a;
 }
 
 /*# sourceMappingURL=MyPage.css.map */
