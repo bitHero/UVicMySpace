@@ -21935,5 +21935,13 @@ th {
   color: #fff;
   background: #a6538a;
 }
+.mypage .semester {
+  display: none;
+  visibility: hidden;
+}
+.mypage .semester.active {
+  display: block;
+  visibility: visible;
+}
 
 /*# sourceMappingURL=MyPage.css.map */
