@@ -4,11 +4,12 @@
     <title>MyUVic | Grades</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width">    <link rel="stylesheet" href="/UVicMySpace/assets/css/MyPage.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width">    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/UVicMySpace/assets/css/MyPage.css">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script></head>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="/UVicMySpace/assets/js/myuvic.js"></script></head>
 <body>
 <div id="uvic-DIV_34">
     <div id="uvic-DIV_35">
@@ -243,11 +244,9 @@
                             </ul>
                         </div>
                         <div class="col-md-2">
-                            <select class="form-control">
-                                <option>Spring 2016</option>
-                                <option>Fall 2015</option>
-                                <option>Spring 2015</option>
-                                <option>Fall 2014</option>
+                            <select class="form-control semester-switch" data-toggle="semester">
+                                <option value="#Spring-2016">Spring 2016</option>
+                                <option value="#Fall-2015">Fall 2015</option>
                             </select>
                         </div>
                     </div>
@@ -255,7 +254,7 @@
             </div>
             <div style="min-height: 60vh;">
                 <div class="col-md-8">
-                        <div class="semester active">
+                        <div id="Spring-2016" class="semester active">
                             <h3>Spring 2016</h3>
                             <p>
                                 <span class="text-muted">Semester GPA </span><span class="badge">7.8</span>
@@ -284,7 +283,7 @@
                                 </table>
                             </div>
                         </div>
-                        <div class="semester ">
+                        <div id="Fall-2015" class="semester ">
                             <h3>Fall 2015</h3>
                             <p>
                                 <span class="text-muted">Semester GPA </span><span class="badge">6.8</span>
