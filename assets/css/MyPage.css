@@ -19167,6 +19167,11 @@ th {
 .mypage .nav-pills > li > a {
   border-radius: 4px;
 }
+@media (max-width: 767px) {
+  .mypage .nav-pills > li > a {
+    padding: 8px 10px;
+  }
+}
 .mypage .nav-pills > li + li {
   margin-left: 2px;
 }
