@@ -21943,5 +21943,11 @@ th {
   display: block;
   visibility: visible;
 }
+.mypage table.semester-switch > tbody > tr {
+  cursor: pointer;
+}
+.mypage table.semester-switch > tbody > tr.active {
+  cursor: default;
+}
 
 /*# sourceMappingURL=MyPage.css.map */
