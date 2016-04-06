@@ -217,7 +217,7 @@
             "year": 2013,
             "semesters": [
               {
-                "semester": "Fall",
+                "semester": "Spring",
                 "courses": [
                   {
                     "code": "ENGL",
@@ -247,7 +247,7 @@
                 ]
               },
               {
-                "semester": "Spring",
+                "semester": "Fall",
                 "courses": [
                   {
                     "code": "ENGL",
@@ -852,36 +852,6 @@
         },
         {
           "semester": "Fall 2013",
-          "semester_GPA": 6.0,
-          "courses": [
-            {
-              "code": "ENGL",
-              "number": 135,
-              "letter": "A-",
-              "percent": 80
-            },
-            {
-              "code": "CSC",
-              "number": 100,
-              "letter": "A+",
-              "percent": 97
-            },
-            {
-              "code": "THEA",
-              "number": 101,
-              "letter": "C+",
-              "percent": 65
-            },
-            {
-              "code": "THEA",
-              "number": 111,
-              "letter": "B+",
-              "percent": 77
-            }
-          ]
-        },
-        {
-          "semester": "Spring 2013",
           "semester_GPA": 7.0,
           "courses": [
             {
@@ -911,6 +881,36 @@
             {
               "code": "THEA",
               "number": 122,
+              "letter": "B+",
+              "percent": 77
+            }
+          ]
+        },
+        {
+          "semester": "Spring 2013",
+          "semester_GPA": 6.0,
+          "courses": [
+            {
+              "code": "ENGL",
+              "number": 135,
+              "letter": "A-",
+              "percent": 80
+            },
+            {
+              "code": "CSC",
+              "number": 100,
+              "letter": "A+",
+              "percent": 97
+            },
+            {
+              "code": "THEA",
+              "number": 101,
+              "letter": "C+",
+              "percent": 65
+            },
+            {
+              "code": "THEA",
+              "number": 111,
               "letter": "B+",
               "percent": 77
             }
