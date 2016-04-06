@@ -6,6 +6,12 @@ body {
   color: #5a5a5a;
 }
 
+/* Typography
+-------------------------------------------------- */
+p {
+  font-size: 18px;
+}
+
 /* CUSTOMIZE THE HEADER
 -------------------------------------------------- */
 /* Header base class */
