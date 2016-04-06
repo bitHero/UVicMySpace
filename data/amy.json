@@ -728,7 +728,7 @@
       }
     },
     "records": {
-      "overall_GPA": 7,
+      "overall_GPA": 6.92,
       "semesters": [
         {
           "semester": "Fall 2015",
@@ -792,37 +792,127 @@
         },
         {
           "semester": "Fall 2014",
-          "semester_GPA": 9.0,
+          "semester_GPA": 8.0,
           "courses": [
             {
               "code": "THEA",
-              "number": 211,
+              "number": 212,
               "letter": "A+",
               "percent": 94
+            },
+            {
+              "code": "THEA",
+              "number": 252,
+              "letter": "A",
+              "percent": 88
+            },
+            {
+              "code": "THEA",
+              "number": 223,
+              "letter": "A-",
+              "percent": 82
+            },
+            {
+              "code": "THEA",
+              "number": 304,
+              "letter": "A",
+              "percent": 86
             }
           ]
         },
         {
           "semester": "Spring 2014",
-          "semester_GPA": 8.0,
+          "semester_GPA": 7.0,
           "courses": [
+            {
+              "code": "THEA",
+              "number": 205,
+              "letter": "A-",
+              "percent": 80
+            },
+            {
+              "code": "THEA",
+              "number": 211,
+              "letter": "B",
+              "percent": 76
+            },
+            {
+              "code": "THEA",
+              "number": 225,
+              "letter": "A",
+              "percent": 86
+            },
+            {
+              "code": "THEA",
+              "number": 251,
+              "letter": "A",
+              "percent": 86
+            }
+          ]
+        },
+        {
+          "semester": "Fall 2013",
+          "semester_GPA": 6.0,
+          "courses": [
+            {
+              "code": "ENGL",
+              "number": 135,
+              "letter": "A-",
+              "percent": 80
+            },
             {
               "code": "CSC",
               "number": 100,
-              "letter": "A",
-              "percent": 88
+              "letter": "A+",
+              "percent": 97
+            },
+            {
+              "code": "THEA",
+              "number": 101,
+              "letter": "C+",
+              "percent": 65
+            },
+            {
+              "code": "THEA",
+              "number": 111,
+              "letter": "B+",
+              "percent": 77
             }
           ]
         },
         {
           "semester": "Spring 2013",
-          "semester_GPA": 8.0,
+          "semester_GPA": 7.0,
           "courses": [
             {
-              "code": "CSC",
-              "number": 100,
+              "code": "ENGL",
+              "number": 136,
               "letter": "A",
               "percent": 88
+            },
+            {
+              "code": "THEA",
+              "number": 102,
+              "letter": "A",
+              "percent": 89
+            },
+            {
+              "code": "THEA",
+              "number": 120,
+              "letter": "B+",
+              "percent": 77
+            },
+            {
+              "code": "THEA",
+              "number": 112,
+              "letter": "A-",
+              "percent": 81
+            },
+            {
+              "code": "THEA",
+              "number": 122,
+              "letter": "B+",
+              "percent": 77
             }
           ]
         }
