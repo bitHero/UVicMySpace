@@ -20,7 +20,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'templates/',
           src: ['**/*.hbs', '!partials/**', '!helpers/**'],
-          dest: 'out/amy/',
+          dest: 'UVicMySpace/amy/',
           ext: '.html'
         }],
         templateData: 'data/amy.json',
@@ -35,14 +35,16 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'assets/',
           src: [
+            '**/*.js',
             '**/*.css',
+            '**/*.css.map',
             '**/*.eot',
             '**/*.svg',
             '**/*.ttf',
             '**/*.woff',
             '**/*.woff2'
           ],
-          dest: 'out/assets/'
+          dest: 'UVicMySpace/assets/'
         }]
       }
     },
@@ -61,6 +63,10 @@ module.exports = function(grunt) {
       styles: {
         files: 'assets/sass/**/*.scss',
         tasks: ['build-styles']
+      },
+      assets: {
+        files: ['assets/img/**/*', 'assets/js/**/*'],
+        tasks: ['copy:assets']
       },
       templates: {
         files: 'templates/**/*',
