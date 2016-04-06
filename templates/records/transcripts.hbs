@@ -1,5 +1,5 @@
 {{#>default section=sections.records page=sections.records.subsections.transcripts}}
-<div style="min-height: 60vh;">
+<div class="row" style="min-height: 60vh;">
     {{! This is the starter for a section page
         -------------------------------------------------------
         - The tag at the top brings in the default portions
@@ -8,31 +8,19 @@
     }}
     <!--Unofficial Transcript Column-->
     <div class="col-md-8">
-        <h2>Unofficial Transcript</h2>
-        <p>Some Text</p>
+        <h3>Unofficial Transcript</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae metus dolor. Nunc fringilla odio congue nulla porttitor interdum. Phasellus suscipit metus nunc, a suscipit neque pulvinar at.</p>
 
         <div class="panel panel-default">
             <div class="panel-body">
-                {{#each user.records.grades}}
-                    <h3>{{semester}}</h3>
-                    <p><span class="text-muted">Semester GPA </span><span class="badge">{{semester_GPA}}</span></p>
-                    <!-- Grade Table -->
-                    <table class="table">
-                        <thead>
-                        <tr>
-                            <th>Course</th>
-                            <th>Percent</th>
-                            <th>Letter Grade</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>{{#each courses}}
-                                <td>{{code}}{{number}}</td>
-                                <td>{{percent}}</td>
-                                <td>{{letter}}</td>
-                            </tr>{{/each}}
-                        </tbody>
-                    </table>
+                {{#each user.records.semesters}}
+                        <section>
+                            <h3>{{semester}}</h3>
+                            <p>
+                                <span class="text-muted">Semester GPA </span><span class="badge">{{semester_GPA}}</span>
+                            </p>
+                            {{> gradeTable static=true}}
+                        </section>
                 {{/each}}
             </div>
         </div>
@@ -40,13 +28,11 @@
 
     <!--Official Transcript Column-->
     <div class="col-md-4">
-        <h2>Official Transcript</h2>
-        <p>Some Text</p>
-
+        <h3>Official Transcript</h3>
         <div class="panel panel-default">
             <div class="panel-body">
                 <h3>Order Transcript</h3>
-                <p>More Text</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae metus dolor. Nunc fringilla odio congue nulla porttitor interdum. </p>
 
                 <h4>Order Priority</h4>
                 <div class="radio">

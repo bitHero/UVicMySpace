@@ -1,0 +1,63 @@
+{{! This is the template for a timetable event
+    -------------------------------------------------------
+    - It exists in the context of a schedule event
+    - It is used in the weekPanel partial
+}}
+<div class="event event-{{course.class}}" style="height: {{multiply (lookup (lookup course.sections type) "length") 0.5625}}px">
+    <h4 class="event-title">
+        {{#with course}}{{code}} {{number}}{{/with}}
+        {{#if (equals type "lecture")}}
+            <i class="fa fa-book fa-pull-right" data-toggle="tooltip" title="Hooray!"></i>
+        {{/if}}
+        {{#if (equals type "lab")}}
+            <i class="fa fa-flask fa-pull-right" data-toggle="tooltip" title="Hooray!"></i>
+        {{/if}}
+    </h4>
+    <div class="event-popover hidden">
+        <h4>
+            {{course.code}} {{course.number}} <span class="text-capitalize">{{type}}</span>
+            <small>{{lookup (lookup course.sections type) "code"}}</small>
+        </h4>
+        <p><b>Instructor:</b> {{course.prof}}</p>
+        {{#with (lookup (lookup course.sections type) "location")}}
+        <p>
+            <b>Location:</b>
+            <abbr title="{{building}} {{#if type}}{{type}}{{else}}Building{{/if}}">{{short}}</abbr> {{room}}
+        </p>
+            <a href="https://www.google.ca/maps/place/{{#replace " " "+"}}{{building}} {{#if type}}{{type}}{{else}}Building{{/if}}{{/replace}}" target="_blank">
+            <img class="img-responsive img-rounded" src="https://maps.googleapis.com/maps/api/staticmap?center=48.4632403,-123.311951&markers={{#replace " " "+"}}{{building}} {{#if type}}{{type}}{{else}}Building{{/if}}{{/replace}}&zoom=15&size=300x200&scale=2&key=AIzaSyC3kB96Upu98HSeS8YwHwOsj53Mb6Kvf8c"/>
+            </a>
+        {{/with}}
+    </div>
+</div>
+
+{{! How the height of events is calculated
+    -------------------------------------------------------
+
+    - the length of an event is in minutes
+    - the height of a cell is 16px with a border of 1px
+    - each event has a 1px top and bottom margin
+
+    Each hour is 32px (16px per half hour cell) so the naive height of an event
+    is,
+
+            h = (l/60) * (32px - 2px)
+              = l * 30/60
+              = l * 0.5 px
+
+   where l is in minutes, and we remove two pixels from the height to account
+   for the margin. To adjust for each cells 1px border we first need to
+   calculate how many cells we cross (how many hours we have basically), we'll
+   pretend there's 64 minutes in an hour to make math easier then multiply by
+   2px for the borders,
+
+            hours = l/64 * 2px
+                  = l * 1/32
+                  = l * 0.0625
+
+   so the total height will be,
+
+            h = l * (0.5 + 0.0625)
+              = l * (0.5625)
+
+}}
