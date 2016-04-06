@@ -10,7 +10,7 @@
     <h2>{{page.title}}</h2>
     {{!This is for the collapsible lists}}
     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-        {{#each sections.help.questions}}
+        {{#each sections.help.faq.questions}}
             <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id={{@index}}: {{this}}>
                     <h4 class="panel-title">
@@ -27,12 +27,6 @@
             </div>
         {{/each}}
     </div>
-    {{! Access the page context with `user` (see amy.json)}}
-    <p>{{user.content}}</p>
 
-
-
-    {{! Access the page context with `user` (see amy.json)}}
-    <p>{{user.content}}</p>
 </div>
 {{/default}}
