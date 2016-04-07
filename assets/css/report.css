@@ -62,6 +62,41 @@ header h2 {
   margin-bottom: 40px;
 }
 
+.carousel-control {
+  color: #999;
+}
+.carousel-control:hover, .carousel-control:active, .carousel-control:focus {
+  color: #666;
+}
+.carousel-control.right, .carousel-control.left {
+  background: none;
+}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+  top: auto;
+  bottom: 84px;
+}
+
+.carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+  color: #333;
+  text-shadow: none;
+}
+.carousel-caption > * {
+  min-height: 64px;
+  width: 75%;
+  margin: 18px auto;
+}
+
+.carousel-indicators li {
+  background-color: #ccc;
+}
+.carousel-indicators li.active {
+  background-color: #999;
+}
+
 /* Featurettes
 ------------------------- */
 .featurette-divider {
