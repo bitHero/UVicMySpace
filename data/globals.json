@@ -140,9 +140,25 @@
         "faq": {
           "title": "FAQ",
           "path": "faq.html",
-          "id": "faq"
+          "id": "faq",
+          "questions": [
+            {
+              "question": "What is the UVic OneCard?",
+              "answer": "The UVic ONECard, introduced in 2014, is the official identification card for the University of Victoria community. As long as you're affiliated with UVic, your ONECard will be your most important piece of ID. Carry it with you at all times when on campus."
+            },
+            {
+              "question": "How can I get oriented to the campus?",
+              "answer": "The UVic Welcome Centre offers daily tours of the campus Monday through Saturday 1:00 p.m. to 2:30 p.m. The tours provide the opportunity to explore the campus and visit a room in residence with an experienced tour guide who is also a UVic student.  The Welcome Centre is locate in the University Centre Building, main floor or you can book a tour online."
+            },
+            {
+              "question": "Can I see an academic adviser?",
+              "answer": "Academic advising for grad students is done through your academic unit. Contact your grad secretary or grad adviser for the best information and advice on programs and courses. If they are not available, contact the academic advising office in your faculty. Some academic units also designate an ombudsperson who is available to talk about any academic matters."
+            }
+          ]
         }
       }
+
+
     }
   },
   "environment": {
