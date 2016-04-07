@@ -77,6 +77,46 @@ header {
   margin-bottom: 40px;
 }
 
+.carousel-control {
+  color: #999;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: #666;
+  }
+
+  &.right,
+  &.left {
+    background: none;
+  }
+
+  .glyphicon-chevron-left,
+  .glyphicon-chevron-right {
+    top: auto;
+    bottom: 84px;
+  }
+}
+.carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+  color: #333;
+  text-shadow: none;
+  > * {
+    min-height: 64px;
+    width: 75%;
+    margin: 18px auto;
+  }
+}
+
+.carousel-indicators li {
+  background-color: #ccc;
+  &.active {
+    background-color: #999;
+  }
+}
+
 /* Featurettes
 ------------------------- */
 
