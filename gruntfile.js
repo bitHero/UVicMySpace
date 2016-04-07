@@ -29,7 +29,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'templates/',
           src: ['**/*.hbs', '!partials/**', '!helpers/**'],
-          dest: 'UVicMySpace/amy/',
+          dest: 'MyUVic/amy/',
           ext: '.html'
         }],
         templateData: 'data/amy.json',
@@ -53,7 +53,7 @@ module.exports = function(grunt) {
             '**/*.woff',
             '**/*.woff2'
           ],
-          dest: 'UVicMySpace/assets/'
+          dest: 'MyUVic/assets/'
         }]
       },
       static: {
@@ -61,7 +61,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'static/',
           src: ['**/*'],
-          dest: 'UVicMySpace/'
+          dest: 'MyUVic/'
         }]
       }
     },

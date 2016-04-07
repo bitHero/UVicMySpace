@@ -388,7 +388,7 @@
         $('.browser').each(function(i,e){
             var browser = $(e);
             browser.find('iframe').load(function(){
-                browser.attr('data-url',this.contentWindow.location.pathname.replace('.html','').replace('/UVicMySpace/amy/','http://uvic.ca/myuvic/'));
+                browser.attr('data-url',this.contentWindow.location.pathname.replace('.html','').replace('/MyUVic/amy/','http://uvic.ca/myuvic/'));
             });
         });
     });

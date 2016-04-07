@@ -1,6 +1,6 @@
 # MyUVic
 
-[![Travis](https://img.shields.io/travis/hwkr/UVicMySpace.svg)](https://travis-ci.org/hwkr/UVicMySpace)
+[![Travis](https://img.shields.io/travis/hwkr/MyUVic.svg)](https://travis-ci.org/hwkr/MyUVic)
 
 ## Project Structure
 
@@ -35,8 +35,8 @@ To build this project you will need:
 To set up the project, begin by cloning the repository,
 
 ```bash
-git clone https://github.com/bitHero/UVicMySpace
-cd UVicMySpace
+git clone https://github.com/bitHero/MyUVic
+cd MyUVic
 ```
 
 Install dependancies with the Node Package Manager (NPM),

@@ -1,12 +1,12 @@
 {
-  "name": "UVicMySpace",
+  "name": "MyUVic",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bitHero/UVicMySpace.git"
+    "url": "git://github.com/bitHero/MyUVic.git"
   },
-  "bugs": "https://github.com/bitHero/UVicMySpace/issues",
-  "contributors": "https://github.com/bitHero/UVicMySpace/graphs/contributors",
+  "bugs": "https://github.com/bitHero/MyUVic/issues",
+  "contributors": "https://github.com/bitHero/MyUVic/graphs/contributors",
   "license": "MIT",
   "dependencies": {
     "grunt": "^0.4.5",
