@@ -10,16 +10,16 @@
     <h2>{{page.title}}</h2>
     {{!This is for the collapsible lists}}
     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-        {{#each sections.help.faq.questions}}
+        {{#each page.questions}}
             <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id={{@index}}: {{this}}>
+                <div class="panel-heading" role="tab">
                     <h4 class="panel-title">
-                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls={{@index}}: {{this}}>
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question-{{@index}}" aria-expanded="false" aria-controls="#question-{{@index}}">
                             {{question}}
                         </a>
                     </h4>
                 </div>
-                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby={{@index}}: {{this}}>
+                <div id="question-{{@index}}" class="panel-collapse collapse out" role="tabpanel" aria-labelledby="question-{{@index}}">
                     <div class="panel-body">
                         {{answer}}
                     </div>
