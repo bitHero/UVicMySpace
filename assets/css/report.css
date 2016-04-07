@@ -23,7 +23,8 @@ p {
 -------------------------------------------------- */
 /* Header base class */
 header {
-  height: 500px;
+  height: 600px;
+  height: 80vh;
   margin-bottom: 60px;
   padding-top: 200px;
   min-width: 100%;
@@ -31,15 +32,24 @@ header {
   background-position: center center;
   background-size: cover;
 }
-
-h1 {
+header h1 {
   text-align: center;
   color: #fff;
-  font-size: 6vw;
+  font-size: 96px;
 }
-h1 small {
+header h2 {
   color: #ccc;
-  font-size: 2vw;
+  font-size: 24px;
+}
+
+.modal-content {
+  overflow: hidden;
+}
+.modal-content iframe {
+  width: 100%;
+  height: 400px;
+  height: 60vh;
+  margin-bottom: -6px;
 }
 
 /* Misc
@@ -70,12 +80,6 @@ h1 small {
 .featurette-divider {
   margin: 80px 0;
   /* Space out the Bootstrap <hr> more */
-}
-
-.featurette-video {
-  text-align: center;
-  width: 100%;
-  frameborder: 0;
 }
 
 /* Thin out the marketing headings */
