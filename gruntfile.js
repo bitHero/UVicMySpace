@@ -78,7 +78,7 @@ module.exports = function(grunt) {
     },
     watch: {
       styles: {
-        files: ['assets/sass/**/*.scss', 'static/assets/sass/**/*.scss'],
+        files: ['assets/sass/**/*.scss'],
         tasks: ['build-styles']
       },
       assets: {
@@ -87,7 +87,7 @@ module.exports = function(grunt) {
       },
       static: {
         files: ['static/**/*'],
-        tasks: ['copy:static']
+        tasks: ['build-static']
       },
       templates: {
         files: 'templates/**/*',
@@ -108,9 +108,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Tasks.
-  grunt.registerTask('build-styles', ['sass', 'cssmin', 'copy:assets']);
+  grunt.registerTask('build-styles', ['sass:dist', 'cssmin', 'copy:assets']);
   grunt.registerTask('build-templates', ['compile-handlebars']);
-  grunt.registerTask('build', ['build-templates', 'build-styles', 'copy:static']);
+  grunt.registerTask('build-static', ['sass:static', 'copy:static']);
+  grunt.registerTask('build', ['build-templates', 'build-styles', 'build-static']);
   grunt.registerTask('default', ['build', 'watch']);
 
 };
