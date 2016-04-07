@@ -338,13 +338,13 @@
                     We used the built in linking tools in Balsamiq to create a fairly usable interface for initial user testing. Feedback was generally positive, one issue of note was the print button on the finances page not clearly showing that you could choose between the current semesters and all semesters. If the issue persisted we panned on possible moving the dropdown out of the button (next to it) to make it clear that options are available.
                 </p>
                 <p>
-                    To provide the most realistic prototype while still allowing flexibility, we decided to build our high fidelity prototype as a static website with mock data. In the frame below your can try following Amy's scenario on the high fidelity prototype.
+                    To provide the most realistic prototype while still allowing flexibility, we decided to build our high fidelity prototype as a static website with mock data. In the frame below your can try following Amy's scenario on the high fidelity prototype (<a target="_blank" href="amy/">full version</a>).
                 </p>
             </div>
         </div>
         <div class="row figure">
             <div class="col-md-10 col-md-offset-1">
-                <div class="browser" data-url="http://www.bowie-to-bowie.io">
+                <div class="browser">
                     <div class="browser-content">
                         <iframe frameborder="0" src="amy/"></iframe>
                     </div>
@@ -370,5 +370,15 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>
 <script src="assets/js/bootstrap.min.js"></script>
+<script>
+    $(function(){
+        $('.browser').each(function(i,e){
+            var browser = $(e);
+            browser.find('iframe').load(function(){
+                browser.attr('data-url',this.contentWindow.location.pathname.replace('.html','').replace('/UVicMySpace/amy/','http://uvic.ca/myuvic/'));
+            });
+        });
+    });
+</script>
 </body>
 </html>
